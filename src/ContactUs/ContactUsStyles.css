@@ -1,0 +1,88 @@
+.contact-us{
+    height: 32.5rem;
+    width: 100%;
+   
+  background-image: url('../assests/contact-us-bg-img.svg');
+}
+.contact-us-main{
+  width: 75%;
+  padding: 5rem 5rem;
+  display: flex;
+
+  justify-content: space-between;
+}
+.contact-us-main > div:first-child > h4{
+  color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+
+
+  font-family: Syne;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.contact-us-main > div:first-child > p{
+  color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+
+  width: 17rem;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.git-text{
+  color: var(--grey-scale-000, #FFF);
+font-family: Syne;
+font-size: 135px;
+font-style: normal;
+font-weight: 800;
+line-height: 76%;
+padding-left: 5rem;
+
+}
+
+.contact-us-ip{
+ 
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  width: 25rem;
+  height: 2.5rem;
+  color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.contact-us-form{
+  display: flex;
+  flex-direction: column;
+  
+}
+.contact-us > div:last-child{
+  position: relative;
+}
+.submit-btn{
+  color: var(--pimary-colour, #F07E15);
+font-family: Work Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+width: 180px;
+height: 180px;
+border: 1px solid #F07E15;
+text-align: center;
+border-radius: 990px;
+position: absolute;
+
+display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 140px;
+    top: -3.5rem;
+
+}

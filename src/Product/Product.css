@@ -1,0 +1,45 @@
+.product-page{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin-top: 100vh;
+   padding-left: 5.75rem;
+   padding-bottom: 2.5rem;
+   gap: 2rem;
+}
+
+
+.product-section-heading{
+    color: var(--grey-scale-1000, #000);
+
+font-family: Syne;
+font-size: 90px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-bottom: 1px solid black;
+width: fit-content;
+}
+.products-section{
+    display: flex;
+    gap: 30px;
+}
+.product-cards-section{
+    display: flex;
+    gap: 26px;
+}
+.products-section > div > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.active-section{
+    color: var(--grey-scale-1000, #000);
+
+/* Subtitles */
+font-family: Syne;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

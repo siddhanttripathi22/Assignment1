@@ -1,0 +1,64 @@
+.banner{
+    height: 81.5vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+
+.banner > div:first-child{
+    color: #FFF;
+position: absolute;
+padding-left: 9rem;
+font-family: Syne;
+font-size: 135px;
+font-style: normal;
+font-weight: 800;
+line-height: 102.6px;
+z-index: 3;
+top: 9rem;
+padding-bottom: 5rem;
+border-bottom: 1px solid white;
+}
+.star-4-icon{
+    position: absolute;
+    right: 29.5rem;
+    z-index: 9999;
+    top: 30.45rem;
+}
+.banner > div > p:nth-child(2){
+    margin-left: 17.5rem;
+}
+.banner > div > p:last-child{
+    margin-left: 4rem;
+}
+.banner-text{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+.star-icon{
+    z-index: 2;
+    position: relative;
+    left: 34rem;
+    bottom: 18rem;
+}
+
+.banner-img{
+    z-index: 3;
+    position: relative;
+    left: 60%;
+    width: 432px;
+    height: 654.951px;
+    flex-shrink: 0;
+}
+.extra-div{
+    width: 75%;
+height: 55%;
+flex-shrink: 0;
+position: absolute;
+right: -7.5%;
+top: 32.5%;
+background: var(--pimary-colour, #F07E15);
+}

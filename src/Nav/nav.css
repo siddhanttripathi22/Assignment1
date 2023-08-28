@@ -1,0 +1,83 @@
+.social-media{
+    background-color: black;
+    width: 100%;
+    height: 18.5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.topbar{
+    width: 100%;
+height: 42px;
+flex-shrink: 0;
+background: #1A1A1A;
+color: #626262;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+padding: 14px 50px;
+box-sizing: border-box;
+}
+.topbar > div {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 20%;
+}
+.topbar > div:last-child{
+    
+    justify-content: space-between;
+}
+.topbar > div:last-child > div{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header{
+    width: 80%;
+    color : white;
+    display: flex;
+    flex-direction: column;
+   margin-left: 10%;
+}
+.header > div:first-child{
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+    align-items: center;
+}
+.header > div > div{
+    display: flex;
+    gap: 2rem;
+}
+.header >div > p{
+    font-size: 40px;
+}
+
+.border-img{
+    width: 100%;
+}
+.nav{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 49%;
+    list-style-type: none;
+}
+.nav> li {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.active{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 4px;
+}
